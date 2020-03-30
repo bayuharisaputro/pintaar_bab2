@@ -4,12 +4,13 @@
     android:orientation="vertical"
     android:layout_margin="10dp"
     app:cardElevation="10dp"
-    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardBackgroundColor="@android:color/darker_gray"
     app:cardCornerRadius="10dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <LinearLayout
+        android:gravity="right"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
@@ -18,7 +19,7 @@
             android:layout_margin="10dp"
             android:text="merk"
             android:textColor="@android:color/white"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent">
 
         </TextView>
@@ -29,7 +30,7 @@
             android:layout_margin="10dp"
             android:text="type"
             android:textColor="@android:color/white"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent">
 
         </TextView>
@@ -39,7 +40,7 @@
             android:layout_margin="10dp"
             android:text="warna"
             android:textColor="@android:color/white"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent">
 
         </TextView>
@@ -49,7 +50,7 @@
             android:layout_margin="10dp"
             android:text="bahan bakar"
             android:textColor="@android:color/white"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent">
 
         </TextView>
