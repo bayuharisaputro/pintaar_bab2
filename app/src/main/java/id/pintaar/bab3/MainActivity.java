@@ -23,9 +23,11 @@ public class MainActivity extends AppCompatActivity {
         rvTest.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
         rvTest.setLayoutManager(layoutManager);
-        list.add(new CarModel("green","Ford","mustang", "gasoline"));
-        list.add(new CarModel("red","toyota","prius", "electicity"));
-        list.add(new CarModel("blue","volkswagen","golf", "diesel"));
+        list.add(new CarModel("merah","Ford","mustang", "gasoline"));
+        list.add(new CarModel("biru","toyota","prius", "electicity"));
+        list.add(new CarModel("hijau","volkswagen","golf", "diesel"));
+        list.add(new CarModel("merah","volkswagen","golf", "diesel"));
+
         adapter = new RecyclerAdapter(this,list);
         rvTest.setAdapter(adapter);
         adapter.notifyDataSetChanged();
